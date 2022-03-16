@@ -1,13 +1,48 @@
 .topnav {
     background-color: #3B1212;
+    overflow: auto;
+    height: 49px;
+    position: relative;
+    top: 100px;
+}
+
+.sitebody {
+    background-color: #EAEAEA;
+    position: relative;
+    top: 135px;
+    left: 50%;
+    transform: translate(-50%);
+    height: 626px;
+    width: 1018px;
+}
+
+.footbar {
+    background-color: #3B1212;
     overflow: hidden;
+    height: 49px;
+    position: relative;
+    bottom: -200px;
+}
+
+.logo {
+    height: 284px;
+    width: 260px;
+    position: relative;
+    top: 31px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 a {
-    font-family: "SBL Hebrew", serif;
+    font-family: heb, serif;
+}
+
+
+div {
+    font-family: heb, serif;
 }
 
 @font-face {
-    font-family: "SBL Hebrew";
+    font-family: heb;
     src: url("sbl_hebrew.ttf");
 }
