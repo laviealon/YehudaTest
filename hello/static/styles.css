@@ -1,0 +1,13 @@
+.topnav {
+    background-color: #3B1212;
+    overflow: hidden;
+}
+
+a {
+    font-family: "SBL Hebrew", serif;
+}
+
+@font-face {
+    font-family: "SBL Hebrew";
+    src: url("sbl_hebrew.ttf");
+}
