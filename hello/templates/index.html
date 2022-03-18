@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="../static/styles.css">
 </head>
 <body>
-<div class="BSD"><p>בס"ד</p></div>
+<div class="BSD" dir="rtl"><p>בס"ד</p></div>
 <img src="../static/logo.png" alt="logo" class="logo" id="logo"/>
-<div class="topnav" style="width:100%;overflow:hidden;height:44px">
+<div class="topnav" style="width:100%;overflow: hidden;height:44px">
     <a class="active bar-item button" href="index.html"
        style="padding-left:80px!important;padding-right:80px!important;">Home</a>
     <a class="bar-item button" href="#"
@@ -20,15 +20,25 @@
     <a class="bar-item button" href="#"
        style="padding-left:80px!important;padding-right:80px!important;">Upcoming Events</a>
     <a class="bar-item button" href="#"
-       style="padding-left:80px!important;padding-right:80px!important;">Donate</a>
+       style="padding-left:60px!important;padding-right:60px!important;">Donate</a>
+    */
 </div>
 
+
 <div class="sitebody" id="sitebody">
-    <div class="todayschedule" id="todayschedule">
+    <div class="today-schedule" id="todayschedule">
+        <div class="today-schedule-title"><p>Today's Schedule</p></div>
+        <div class="today-schedule-zmanim">
+            <p>שחרית - 7:15</p>
+            <p>הדלקת נרות - 17:55</p>
+            <p>מנחה וקבלת שבת - 18:00</p>
+        </div>
+        <div class="today-schedule-footer"><p>(see the "Zmanei Tefillah" page for this week's full schedule)</p></div>
+    </div>
+    <div class="upcoming" id="upcoming">
         <div id="secular-date"></div>
         <div id="jewish-date"></div>
     </div>
-    <div class="upcoming" id="upcoming"></div>
 </div>
 
 <div class="footbar"></div>

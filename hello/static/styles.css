@@ -1,7 +1,41 @@
+.today-schedule-footer {
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.today-schedule-title {
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.today-schedule {
+    position: relative;
+    top: 27px;
+    left: 31px;
+    width: 670px;
+    height: 171px;
+    background-color: #FFFFFF;
+    outline-offset: -5px;
+    outline: 1.5px solid black;
+}
+
+.upcoming {
+    position: fixed;
+    top: 27px;
+    right: 31px;
+    width: 234px;
+    height: 398px;
+    background-color: #FFFFFF;
+    outline-offset: -5px;
+    outline: 1.5px solid black;
+}
+
 .BSD {
     position: relative;
+    overflow: hidden;
     top: 1%;
-    left: 97%;
 }
 
 .topnav {
@@ -49,13 +83,17 @@
     height: 284px;
     width: 260px;
     position: relative;
-    top: 31px;
+    top: 5px;
     left: 50%;
     transform: translate(-50%);
 }
 
 a {
     font-family: heb, serif;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    margin-top: 3px;
 }
 
 
@@ -65,5 +103,5 @@ div {
 
 @font-face {
     font-family: heb;
-    src: url("sbl_hebrew.otf") format("opentype");
+    src: url("hebrew.otf") format("opentype");
 }
