@@ -1,21 +1,46 @@
 .today-schedule-footer {
     font-size: 14px;
     text-align: center;
+    vertical-align: bottom;
 }
-
 
 .today-schedule-title {
     font-size: 30px;
     text-align: center;
     position: relative;
+    vertical-align: top;
+    bottom: 20px;
 }
+
+.zman1 {
+    font-size: 23px;
+    text-align: center;
+    position: relative;
+    vertical-align: top;
+    bottom: 12px;
+}
+.zman2 {
+    font-size: 23px;
+    text-align: center;
+    position: relative;
+    vertical-align: top;
+    bottom: 12px;
+}
+.zman3 {
+    font-size: 23px;
+    text-align: center;
+    position: relative;
+    vertical-align: top;
+    bottom: 12px;
+}
+
 
 .today-schedule {
     position: relative;
     top: 27px;
     left: 31px;
     width: 670px;
-    height: 171px;
+    height: 185px;
     background-color: #FFFFFF;
     outline-offset: -5px;
     outline: 1.5px solid black;
@@ -101,7 +126,17 @@ div {
     font-family: heb, serif;
 }
 
+.today-schedule-zmanim {
+    font-size: 22px;
+    top: -1000px;
+}
+
 @font-face {
     font-family: heb;
     src: url("hebrew.otf") format("opentype");
+}
+
+* {
+    padding: 0;
+    margin: 0;
 }
